@@ -1,6 +1,8 @@
-# kanadventures
+# Kanadventures
 
-A new Flutter project.
+KANADVENTURES is a brand new mobile application whose mission is to help users with their Japanese language studies.
+
+- As of Feb 3rd a Kanadventures MVP was released.
 
 ## Getting Started
 

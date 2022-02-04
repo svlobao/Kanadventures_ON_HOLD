@@ -3,20 +3,20 @@ import 'package:flip_card/flip_card_controller.dart';
 import 'package:flutter/material.dart';
 
 import 'package:kanadventures/models/data_format.dart';
-import 'package:kanadventures/models/kana_data.dart';
+import 'package:kanadventures/models/katakana_data.dart';
 
-class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+class Katakana extends StatefulWidget {
+  const Katakana({Key? key}) : super(key: key);
 
   @override
-  _HomeState createState() => _HomeState();
+  _KatakanaState createState() => _KatakanaState();
 }
 
-class _HomeState extends State<Home> {
-  List<Flashcard> kanas = simpleKanas;
-  List indexes = List<int>.generate(simpleKanas.length, (index) => index);
+class _KatakanaState extends State<Katakana> {
+  List<Flashcard> kanas = simpleKatakanas;
+  List indexes = List<int>.generate(simpleKatakanas.length, (index) => index);
 
-  final total = simpleKanas.length;
+  final total = simpleKatakanas.length;
   final String title = 'KANADVENTURES';
 
   int correct = 0;
@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
   }
 
   void restartList() {
-    indexes = List<int>.generate(simpleKanas.length, (index) => index);
+    indexes = List<int>.generate(simpleKatakanas.length, (index) => index);
     correct = 0;
     setState(() {});
   }

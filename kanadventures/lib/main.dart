@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:kanadventures/screens/home.dart';
+import 'screens/login.dart';
 
 void main() {
   runApp(const Kanadventures());
@@ -11,6 +11,6 @@ class Kanadventures extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Home());
+    return const MaterialApp(home: Login());
   }
 }

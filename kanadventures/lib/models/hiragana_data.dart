@@ -1,6 +1,6 @@
 import 'package:kanadventures/models/data_format.dart';
 
-List<Flashcard> simpleKanas = [
+List<Flashcard> simpleHiraganas = [
   Flashcard(question: 'あ', answer: 'A'),
   Flashcard(question: 'い', answer: 'I'),
   Flashcard(question: 'う', answer: 'U'),
@@ -49,7 +49,7 @@ List<Flashcard> simpleKanas = [
   Flashcard(question: 'ん', answer: 'NN'),
 ];
 
-List<Flashcard> tentenKanas = [
+List<Flashcard> tentenHiraganas = [
   Flashcard(question: 'が', answer: 'GA'),
   Flashcard(question: 'ぎ', answer: 'GI'),
   Flashcard(question: 'ぐ', answer: 'GU'),
@@ -72,7 +72,7 @@ List<Flashcard> tentenKanas = [
   Flashcard(question: 'ぼ', answer: 'BO'),
 ];
 
-List<Flashcard> maruKanas = [
+List<Flashcard> maruHiraganas = [
   Flashcard(question: 'ぱ', answer: 'PA'),
   Flashcard(question: 'ぴ', answer: 'PI'),
   Flashcard(question: 'ぷ', answer: 'PU'),
@@ -80,7 +80,7 @@ List<Flashcard> maruKanas = [
   Flashcard(question: 'ぽ', answer: 'PO'),
 ];
 
-List<Flashcard> compoundKanas = [
+List<Flashcard> compoundHiraganas = [
   Flashcard(question: 'きゃ', answer: 'KYA'),
   Flashcard(question: 'きゅ', answer: 'KYU'),
   Flashcard(question: 'きょ', answer: 'KYO'),
