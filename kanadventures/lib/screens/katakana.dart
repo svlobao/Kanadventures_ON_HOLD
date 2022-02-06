@@ -2,7 +2,7 @@ import 'package:flip_card/flip_card.dart';
 import 'package:flip_card/flip_card_controller.dart';
 import 'package:flutter/material.dart';
 
-import 'package:kanadventures/models/data_format.dart';
+import 'package:kanadventures/models/flashcard_data_format.dart';
 import 'package:kanadventures/models/katakana_data.dart';
 
 class Katakana extends StatefulWidget {
@@ -76,7 +76,7 @@ class _KatakanaState extends State<Katakana> {
             children: [
               FlipCard(
                 controller: _controller,
-                speed: 200,
+                speed: 100,
                 front: SizedBox(
                   width: MediaQuery.of(context).size.width * 0.85,
                   height: MediaQuery.of(context).size.height * 0.65,

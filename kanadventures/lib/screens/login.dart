@@ -45,7 +45,11 @@ class _LoginState extends State<Login> {
                   const Text('Keep me connected'),
                 ],
               ),
-              ElevatedButton(onPressed: () {}, child: const Text('Login ')),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.of(context).pushNamed('/menu');
+                  },
+                  child: const Text('Login ')),
               TextButton(onPressed: () {}, child: const Text('Sign up')),
               const Text('Or login with:'),
               ElevatedButton(onPressed: () {}, child: const Text('Google')),

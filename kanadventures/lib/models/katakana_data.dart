@@ -1,4 +1,4 @@
-import 'package:kanadventures/models/data_format.dart';
+import 'package:kanadventures/models/flashcard_data_format.dart';
 
 List<Flashcard> simpleKatakanas = [
   Flashcard(question: 'ア', answer: 'A'),
